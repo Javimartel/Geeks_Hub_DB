@@ -32,7 +32,8 @@ $ git clone https://github.com/Javimartel/Geeks_Hub_DB.git
 
 En primer lugar hemos creado el **Diagrama Entidad-Relación**, para poder unir cada tabla y obtener las **relaciones** correspondientes junto a sus **cardinalidades**, además de conocer los **atributos** pertenecientes a cada tabla.
 
-![Diagrama Entidad-Relación](https://i.imgur.com/GN3OQUK.png)
+![Diagrama Entidad-Relación](https://i.imgur.com/cPeuHFe.png)
+
 
 ---
 
@@ -43,9 +44,9 @@ A continuación hemos creado el **Modelo Lógico** para poder saber si nuestro D
 | Nombre de Tabla | Atributos |
 |---|---|
 | Cuenta | (**Correo**, Nombre, Apellidos, Direccion, Contrasena, Telefono, Fecha_Nacimiento, *Tipo_Suscripcion*) | 
-| Suscripción | (**Tipo_Suscripcion**, Precio, Calidad_Videos, Max_Dispositivos) |
+| Suscripción  | (**Tipo_Suscripcion**, Precio, Calidad_Videos, Max_Dispositivos) |
 | Perfil | (**Cod_Perfil**, Nickame, Imagen, **Correo**) | 
-| Perfil_Contenido *[Historial]* | (**Cod_Perfil**, **Cod_Contenido**, Fecha_Visualizacion) | 
+| Perfil_Contenido *[Historial]*  | (**Cod_Perfil**, **Cod_Contenido**, Fecha_Visualizacion) | 
 | Favoritos | (**Cod_Favoritos**, Fecha_Creacion, Fecha_Eliminacion) | 
 | Contenido_Favorito | (**Cod_Favoritos**, **Cod_Contenido**) |
 | Serie | (**Cod_Contenido**, **N_Temporada**, Titulo, Calificacion_Edades, Genero, Director, Puntuacion_Media, Productora, Sinopsis, Fecha_Publicacion, Portada, Trailer, N_Capitulos) | 
