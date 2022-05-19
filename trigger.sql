@@ -3,10 +3,14 @@ CREATE TABLE baja_cuenta(
     Fecha DATE
 );
 
-DROP TRIGGER IF EXISTS dar_baja ;
+-- Trigger 1: Crear un trigger que, al eliminar una cuenta, 
+-- esta se debe quedar registrada en una tabla junto a la 
+-- fecha en la que se dio de baja
+
+DROP TRIGGER IF EXISTS unsubscribe;
 DELIMITER $$
 
-CREATE TRIGGER dar_baja 
+CREATE TRIGGER unsubscribe 
 BEFORE DELETE ON Cuenta
 FOR EACH ROW
 BEGIN
@@ -28,10 +32,14 @@ DELETE FROM Cuenta WHERE Correo = "juanma87@gmail.com";
 
 -------------------
 
-DROP TRIGGER IF EXISTS dar_alta ;
+-- Trigger 2: Crear un trigger que, al añadir una cuenta que 
+-- anteriormente fue dada de baja, esta debe ser eliminada de 
+-- la tabla de cuentas de baja.
+
+DROP TRIGGER IF EXISTS to_register ;
 DELIMITER $$
 
-CREATE TRIGGER dar_alta 
+CREATE TRIGGER to_register 
 BEFORE INSERT ON Cuenta
 FOR EACH ROW
 BEGIN
