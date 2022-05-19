@@ -52,7 +52,7 @@ WHERE Genero = "Ciencia Ficcion";
 
 -- Consultas Compuestas
 
--- Consulta 1: mostrar la lista de favoritos del perfil 4
+-- Consulta 1: mostrar la lista de favoritos del perfil 5
 SELECT Cod_Contenido, Titulo, Genero
 FROM Favoritos F
 INNER JOIN Contenido_Favorito Cf
@@ -65,7 +65,8 @@ FROM Favoritos F
 INNER JOIN Contenido_Favorito Cf
 ON F.Cod_Favoritos = Cf.Cod_Favoritos
 INNER JOIN Serie S
-ON Cf.Cod_Contenido = S.Cod_Serie;
+ON Cf.Cod_Contenido = S.Cod_Serie
+WHERE F.Cod_Favoritos = "FV05";
 
 
 -- Consulta 2: mostrar el historial del perfil 9
