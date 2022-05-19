@@ -21,9 +21,19 @@ WHERE Productor = "Netflix";
 +--------------+-----------------------------------+------------+
 
 -- Consulta 2: mostrar a todas las cuentas "Premium"
+
 SELECT *
 FROM Cuenta
 WHERE Tipo_Suscripcion = "Premium";
+
+-- RESULTADO
+
++------------------------+--------+-----------------+----------------+------------+-----------+------------------+
+| Correo                 | Nombre | Apellidos       | Direccion      | Contrasena | Telefono  | Tipo_Suscripcion |
++------------------------+--------+-----------------+----------------+------------+-----------+------------------+
+| aitorinfo@hotmail.es   | Aitor  | Santana Cabrera | C/ El Monte    | 1992A_sc*  | 689002130 | Premium          |
+| raulpokefan@hotmail.es | Raul   | Navarro Lopez   | A/ Escaleritas | *rauli54*  | 623145896 | Premium          |
++------------------------+--------+-----------------+----------------+------------+-----------+------------------+
 
 -- Consulta 3: mostrar todas las películas de "Ciencia Ficción"
 
