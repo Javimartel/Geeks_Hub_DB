@@ -332,9 +332,11 @@ CREATE TABLE Pelicula (
 );
 
 INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Media, Productor, Sinopsis, Fecha_Publicacion, Portada, Trailer, Duracion) VALUES
+-- Romance
 ("Titanic","tp", "Romance", "James Cameron", 3.45, "Warner Bros", "Pelicula que narra la historia del hundimiento del Titanic","1997-12-11",
 "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLITJy5IWUAnLlg6dtv8Pfgvf2Emoi8vjaqIUD_9tLWiPTbFv6",
 "https://www.youtube.com/watch?v=wMZuro21wtE",120),
+-- Ciencia Ficción
 ("Star Wars Episodio I","tp", "Ciencia Ficcion", "George Lucas", 4.95, "20TH FOX", "La amenaza Fantasma","1999-05-19",
 "https://es.web.img2.acsta.net/medias/nmedia/18/86/33/09/19835623.jpg",
 "https://www.youtube.com/watch?v=n1CUHjrc9Sc",134),
@@ -353,24 +355,47 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("Avengers End Game","tp", "Ciencia Ficcion", "Hermanos Russo", 5.00, "Marvel Studios", "La lucha final para restablecer la vida en el Universo Marvel","2019-04-25",
 "https://m.media-amazon.com/images/I/81GfZasnt9L._SL1371_.jpg",
 "https://www.youtube.com/watch?v=UQ3bqYKnyhM",165),
+-- Drama
 ("Creed II: Defendiendo el Legado","16", "Drama", "Steven Caple Jr", 2.95, "20TH FOX", "Creed debe defender el legado de su padre","2018-11-14",
 "https://m.media-amazon.com/images/I/81rpB-3qwoL._SL1500_.jpg",
 "https://www.youtube.com/watch?v=PK7E64G3LnI",112),
+-- Comedia
 ("El Proyecto Adam","tp", "Comedia", "Shawn Levy", 2.45, "Netflix", "Adam viaja al pasado tras escaparse del Control de Seguridad del año 2050","2022-03-09",
 "https://pics.filmaffinity.com/El_proyecto_Adam-392719853-large.jpg",
 "https://www.youtube.com/watch?v=ZnJxmnko64o",136),
+-- Fantasia
 ("Sonic 2","tp", "Fantasia", "Jeff Fowler", 3.7, "Paramount Pictures", "Sonic 2. La pelicula es una pelicula de comedia de accion y aventuras basada en la franquicia de videojuegos publicada por Sega. Es la secuela de Sonic, la pelicula y una vez mas esta dirigida por Jeff Fowler y escrita por Pat Casey, Josh Miller y John Whittington","1997-12-11",
 "https://es.web.img3.acsta.net/pictures/22/02/18/10/20/5195258.jpg",
 "https://www.youtube.com/watch?v=cF5uf8a2Xds",145),
+-- Terror
 ("Fresh","16", "Terror", "Mimi Cave", 3.35, "Disney", "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.","2022-01-20",
 "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sensacine.com%2Fpeliculas%2Fpelicula-286323%2F&psig=AOvVaw2s4u8oAGbFpEW12hDvg311&ust=1652903539007000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCnguan5_cCFQAAAAAdAAAAABAD",
 "https://www.youtube.com/watch?v=wKk5VAK1GZQ",117),
-
--- Faltan Datos Scream
-("Scream","18", "Suspense", "Matt Bettinelli-Olpin, Tyler Gillett", 4.55, "Disney", "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.","2022-01-20",
-"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sensacine.com%2Fpeliculas%2Fpelicula-286323%2F&psig=AOvVaw2s4u8oAGbFpEW12hDvg311&ust=1652903539007000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCnguan5_cCFQAAAAAdAAAAABAD",
-"https://www.youtube.com/watch?v=wKk5VAK1GZQ",117),
-
-("It","12", "Terror", "Mimi Cave", 5.82, "AppleTV", "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.","2022-01-20",
-"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sensacine.com%2Fpeliculas%2Fpelicula-286323%2F&psig=AOvVaw2s4u8oAGbFpEW12hDvg311&ust=1652903539007000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCnguan5_cCFQAAAAAdAAAAABAD",
-"https://www.youtube.com/watch?v=wKk5VAK1GZQ",192),
+("It","16", "Terror", "Andrés Muschietti", 4.32, "Warner Bros", 
+"Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.","2017-09-08",
+"https://pics.filmaffinity.com/It-787119144-large.jpg",
+"https://www.youtube.com/watch?v=9jhtucvduSw",135),
+-- Suspense
+("Scream","18", "Suspense", "Matt Bettinelli-Olpin, Tyler Gillett", 2.85, "Paramount Pictures", "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.","2022-01-20",
+"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/41abe198c2d35b7db647d33b93a14a8014e71f598aa4f22e13006ccfdd03230a._RI_V_TTW_.jpg",
+"https://www.youtube.com/watch?v=LItQuV1bFf4",114),
+-- Accion
+("Tyler Rake","16", "Accion", "Sam Hargrave", 2.99, "Netflix", "Tyler Rake, un intrépido mercenario, es enviado a Bangladesh por un poderoso mafioso encarcelado para que salve a su hijo secuestrado.","2020-04-24",
+"https://pics.filmaffinity.com/Tyler_Rake-748147420-large.jpg",
+"https://www.youtube.com/watch?v=WPQq7fw_XMk",120),
+-- Aventura
+("The Batman","12", "Aventura", "Matt Reeves", 2.99, "DC Entertaiment", "En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entrará en conflicto con un asesino en serie conocido como 'el Acertijo'.","2022-03-04",
+"https://pics.filmaffinity.com/The_Batman-449856406-large.jpg",
+"https://www.youtube.com/watch?v=IqRRLA6pZvo",120),
+-- Belico
+("Top Gun Maverick","12", "Belico", "Joseph Kosinski", 3.99, "Paramount Pictures", "Tras más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete 'Maverick' Mitchel se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba.","2022-05-24",
+"https://pics.filmaffinity.com/Top_Gun_Maverick-863584703-large.jpg",
+"https://www.youtube.com/watch?v=zmFdhZ6gyUM",131),
+-- Musical 
+("La La Land","12", "Musical", "Damien Chazelle", 4.39, "Summit Entertaiment", "La La Land es una película dramática y musical estadounidense de 2016, escrita y dirigida por Damien Chazelle, y protagonizada por Emma Stone y Ryan Gosling, una aspirante a actriz y un pianista de jazz que se conocen y enamoran en Los Ángeles, California.","2022-05-24",
+"https://pics.filmaffinity.com/La_ciudad_de_las_estrellas_La_La_Land-262021831-large.jpg",
+"https://www.youtube.com/watch?v=IHbHn5SLhZo",128),
+-- Documental
+("Elon Musk: The Real Life Iron Man","tp", "Documental", "Sonia Anderson", 3.39, "Netflix", "Este documental gira en torno a la vida de Elon Musk y sus innovadoras ideas en tecnología de viajes, inteligencia artificial y vuelos espaciales.","2018-05-14",
+"httpshttps://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f17d87c2ce071ecf1854d359c223f785c6226f862627f8beab86b75526f8722._RI_V_TTW_.jpg",
+"https://www.youtube.com/watch?v=qVxuLkvsknE",74),
