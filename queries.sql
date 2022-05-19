@@ -63,14 +63,15 @@ WHERE Genero = "Ciencia Ficcion";
 -- Consultas Compuestas
 
 -- Consulta 1: mostrar la lista de favoritos del perfil 5
-SELECT Cod_Contenido, Titulo, Genero
+SELECT Cod_Contenido, Titulo, Genero, "Es una pelicula" AS "Temporada"
 FROM Favoritos F
 INNER JOIN Contenido_Favorito Cf
 ON F.Cod_Favoritos = Cf.Cod_Favoritos
 INNER JOIN Pelicula P
 ON Cf.Cod_Contenido = P.Cod_Pelicula
+WHERE F.Cod_Favoritos = "FV05"
 UNION 
-SELECT Cod_Contenido, Titulo, Genero
+SELECT Cod_Contenido, Titulo, Genero, N_Temporada
 FROM Favoritos F
 INNER JOIN Contenido_Favorito Cf
 ON F.Cod_Favoritos = Cf.Cod_Favoritos
@@ -78,6 +79,17 @@ INNER JOIN Serie S
 ON Cf.Cod_Contenido = S.Cod_Serie
 WHERE F.Cod_Favoritos = "FV05";
 
+-- RESULTADO
+
++---------------+-----------------------+-----------------+
+| Cod_Contenido | Titulo                | Genero          |
++---------------+-----------------------+-----------------+
+| P001          | Titanic               | Romance         |
+| P004          | Star Wars Episodio II | Ciencia Ficcion |
+| P007          | Avengers Infinity War | Ciencia Ficcion |
+| S005          | Black Mirror          | Ciencia Ficcion |
+| S006          | Black Mirror          | Ciencia Ficcion |
++---------------+-----------------------+-----------------+
 
 -- Consulta 2: mostrar el historial del perfil 9
 
