@@ -147,16 +147,15 @@ BEFORE INSERT
 ON Serie
 FOR EACH ROW
 BEGIN
-   DECLARE contador INT;
-   BEGIN
-       SET contador = (SELECT COUNT(*) + 1 FROM Serie); 
-       IF (contador < 10) THEN
-           SET Cod_Serie = CONCAT("S00", contador);
-       ELSEIF (contador < 100) THEN
-           SET Cod_Serie = CONCAT("S0", contador);
-       ELSE IF (contador < 1000) THEN
-            SET Cod_Serie = CONCAT("S", contador);      
-       END IF; 
+    DECLARE contador INT;
+        SET contador = (SELECT COUNT(*) + 1 FROM Serie); 
+        IF (contador < 10) THEN
+            SET NEW.Cod_Serie = CONCAT("S00", contador);
+        ELSEIF (contador < 100) THEN
+            SET NEW.Cod_Serie = CONCAT("S0", contador);
+        ELSEIF (contador < 1000) THEN
+            SET NEW.Cod_Serie = CONCAT("S", contador);      
+        END IF; 
 END $$
 DELIMITER ;
 
@@ -169,16 +168,15 @@ BEFORE INSERT
 ON Pelicula
 FOR EACH ROW
 BEGIN
-   DECLARE contador INT;
-   BEGIN
-       SET contador = (SELECT COUNT(*) + 1 FROM Pelicula); 
-       IF (contador < 10) THEN
-           SET Cod_Pelicula = CONCAT("P00", contador);
-       ELSEIF (contador < 100) THEN
-           SET Cod_Pelicula = CONCAT("P0", contador);
-       ELSE IF (contador < 1000) THEN
-            SET Cod_Pelicula = CONCAT("P", contador);      
-       END IF; 
+    DECLARE contador INT;
+        SET contador = (SELECT COUNT(*) + 1 FROM Pelicula); 
+        IF (contador < 10) THEN
+            SET NEW.Cod_Pelicula = CONCAT("P00", contador);
+        ELSEIF (contador < 100) THEN
+            SET NEW.Cod_Pelicula = CONCAT("P0", contador);
+        ELSEIF (contador < 1000) THEN
+            SET NEW.Cod_Pelicula = CONCAT("P", contador);      
+        END IF;
 END $$
 DELIMITER ;
 
