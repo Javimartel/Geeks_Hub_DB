@@ -1,10 +1,12 @@
 
 -- Insercion de Datos --
 
+SET FOREIGN_KEY_CHECKS = 0;
+
 INSERT INTO Cuenta VALUES 
     ("aitorinfo@hotmail.es", "Aitor", "Santana Cabrera", "C/ El Monte", "1992A_sc*", "689002130", "Premium"),
     ("saracabrera@gmail.com", "Sara", "Cabrera Sanchez", "C/ Los Tarajales", "sara125*", "662358941", "Estandar"),
-    ("javimartel@hotmail.com", "Javier", "Martel Espino" "C/ Jose Perez", "MJav8795.", "614789500", "Basico"),
+    ("javimartel@hotmail.com", "Javier", "Martel Espino", "C/ Jose Perez", "MJav8795.", "614789500", "Basico"),
     ("lauritajua@gmail.com", "Laura", "Hernandez Gil", "A/ El Pintor", "lau123jua", "611240359", "Estandar"),
     ("juanma87@gmail.com", "Juan Manuel", "Perez Diaz", "C/ Paula Doreste", "87juanma2", "606218752", "Basico"),
     ("raulpokefan@hotmail.es", "Raul", "Navarro Lopez", "A/ Escaleritas", "*rauli54*", "623145896", "Premium");
@@ -191,3 +193,5 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("It","12", "Terror", "Mimi Cave", 5.82, "AppleTV", "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.","2022-01-20",
 "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sensacine.com%2Fpeliculas%2Fpelicula-286323%2F&psig=AOvVaw2s4u8oAGbFpEW12hDvg311&ust=1652903539007000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCnguan5_cCFQAAAAAdAAAAABAD",
 "https://www.youtube.com/watch?v=wKk5VAK1GZQ",192),
+
+SET FOREIGN_KEY_CHECKS = 1;
