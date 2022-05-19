@@ -201,14 +201,14 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("Tyler Rake","16", "Accion", "Sam Hargrave", 2.99, "Netflix", "Tyler Rake, un intrépido mercenario, es enviado a Bangladesh por un poderoso mafioso encarcelado para que salve a su hijo secuestrado.","2020-04-24",
 "https://pics.filmaffinity.com/Tyler_Rake-748147420-large.jpg",
 "https://www.youtube.com/watch?v=WPQq7fw_XMk",120),
-("Jurassic World: El reino caído","12", "Accion", "Juan Antonio Bayona", 4.4, "Owen y Claire intentan salvar a los dinosaurios que quedan en la isla ante el peligro de erupción de un volcán.","2018-05-21",
+("Jurassic World: El reino caído","12", "Accion", "Juan Antonio Bayona", 4.40, "Netflix", "Owen y Claire intentan salvar a los dinosaurios que quedan en la isla ante el peligro de erupción de un volcán.","2018-05-21",
 "http://5b0988e595225.cdn.sohucs.com/images/20181220/1a6dca5dc03642989057386e77feb554.jpeg",
 "https://www.youtube.com/watch?v=Pbxxz5uytCo",129),
 -- Aventura
 ("The Batman","12", "Aventura", "Matt Reeves", 2.99, "DC Entertaiment", "En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entrará en conflicto con un asesino en serie conocido como 'el Acertijo'.","2022-03-04",
 "https://pics.filmaffinity.com/The_Batman-449856406-large.jpg",
 "https://www.youtube.com/watch?v=IqRRLA6pZvo",120),
-("Uncharted","16", "Aventura", "Ruben Fleischer", 3.69, "Sony Pictures", "Nathan Drake y su compañero Victor Sullivan se adentran en la peligrosa búsqueda del "mayor tesoro jamás encontrado". Al mismo tiempo, rastrean pistas que puedan conducir al hermano perdido de Drake.","2022-02-11",
+("Uncharted","16", "Aventura", "Ruben Fleischer", 3.69, "Sony Pictures", "Nathan Drake y su compañero Victor Sullivan se adentran en la peligrosa búsqueda del 'mayor tesoro jamás encontrado'. Al mismo tiempo, rastrean pistas que puedan conducir al hermano perdido de Drake.","2022-02-11",
 "https://pics.filmaffinity.com/Uncharted-417211360-large.jpg",
 "https://www.youtube.com/watch?v=t_uYnyHWOsY",115),
 -- Belico
