@@ -44,7 +44,7 @@ INSERT INTO Favoritos VALUES
     ("FV10", "2022-03-10", NULL),
     ("FV11", "2022-03-19", "2022-05-10"),
     ("FV12", "2022-03-29", NULL),
-    ("FV13", "2022-04-01", NULL),
+    ("FV13", "2022-04-01", NULL);
 
 INSERT INTO Contenido_Favorito VALUES 
     ("FV01", "P001"),
@@ -80,7 +80,7 @@ INSERT INTO Contenido_Favorito VALUES
     ("FV13", "S003"),
     ("FV13", "P006"),
     ("FV13", "P005"),
-    ("FV13", "S003");
+    ("FV13", "S002");
 
 INSERT INTO Historial VALUES 
     ("Perfil1", "P002", "2021-11-02"),
@@ -133,28 +133,15 @@ INSERT INTO Series (N_Temporada, Titulo, Calificacion_Edad, Genero, Director, Pu
     "2019-06-05", "https://es.web.img3.acsta.net/pictures/19/06/03/09/48/4443572.jpg", "https://www.youtube.com/watch?v=oviaUj5eUzU", 3),
     -- AÑADIR MAS SERIES
     ();
-    
-
--- CREATE TABLE Pelicula (
---     Cod_Pelicula CHAR(4) PRIMARY KEY,
---     Titulo VARCHAR(50) NOT NULL,
---     Calificacion_Edad ENUM("tp", "8", "12", "16", "18") NOT NULL,
---     Genero ENUM("Suspense", "Terror", "Comedia", "Accion", "Drama", "Fantasia", "Romance", "Aventura", "Ciencia Ficcion", "Belico", "Musical", "Documental") NOT NULL,
---     Director VARCHAR(20) NOT NULL,
---     Puntuacion_Media DEC(3, 2) DEFAULT 0,
---     Productor VARCHAR(20) NOT NULL,
---     Sinopsis VARCHAR(300) NOT NULL, 
---     Fecha_Publicacion DATE NOT NULL,
---     Portada VARCHAR(200) NOT NULL,
---     Trailer VARCHAR(200) NOT NULL,
---     Duracion INT NOT NULL
--- );
 
 INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Media, Productor, Sinopsis, Fecha_Publicacion, Portada, Trailer, Duracion) VALUES
 -- Romance
 ("Titanic","tp", "Romance", "James Cameron", 3.45, "Warner Bros", "Pelicula que narra la historia del hundimiento del Titanic","1997-12-11",
 "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLITJy5IWUAnLlg6dtv8Pfgvf2Emoi8vjaqIUD_9tLWiPTbFv6",
 "https://www.youtube.com/watch?v=wMZuro21wtE",120),
+("Yo antes de ti","12", "Romance", "The Sharrock", 4.8, "Netflix", "A menudo uno encuentra al amor donde menos lo espera. A veces te lleva a donde nunca imaginaste ir... ","2016-07-01",
+"https://m.media-amazon.com/images/M/MV5BMmQxNzQyNTItMjM1OS00M2Q0LTg4YzUtNzlhZDJiNjNjM2FlXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg",
+"https://www.youtube.com/watch?v=77wgbw-NKnY",110),
 -- Ciencia Ficción
 ("Star Wars Episodio I","tp", "Ciencia Ficcion", "George Lucas", 4.95, "20TH FOX", "La amenaza Fantasma","1999-05-19",
 "https://es.web.img2.acsta.net/medias/nmedia/18/86/33/09/19835623.jpg",
@@ -186,11 +173,13 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("Sonic 2","tp", "Fantasia", "Jeff Fowler", 3.7, "Paramount Pictures", "Sonic 2. La pelicula es una pelicula de comedia de accion y aventuras basada en la franquicia de videojuegos publicada por Sega. Es la secuela de Sonic, la pelicula y una vez mas esta dirigida por Jeff Fowler y escrita por Pat Casey, Josh Miller y John Whittington","1997-12-11",
 "https://es.web.img3.acsta.net/pictures/22/02/18/10/20/5195258.jpg",
 "https://www.youtube.com/watch?v=cF5uf8a2Xds",145),
+("Encanto","tp", "Fantasia", "Byron Howard", 4.1, "Disney", "En una casa mágica, vive la extraordinaria familia Madrigal donde todos tienen habilidades fantásticas.","2021-11-26",
+"https://laminute.info/wp-content/uploads/2021/11/29323514.jpg",
+"https://www.youtube.com/watch?v=SAH_W9q_brE",109),
 -- Terror
 ("Fresh","16", "Terror", "Mimi Cave", 3.35, "Disney", "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.","2022-01-20",
 "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sensacine.com%2Fpeliculas%2Fpelicula-286323%2F&psig=AOvVaw2s4u8oAGbFpEW12hDvg311&ust=1652903539007000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCnguan5_cCFQAAAAAdAAAAABAD",
 "https://www.youtube.com/watch?v=wKk5VAK1GZQ",117),
-
 ("It","16", "Terror", "Andrés Muschietti", 4.32, "Warner Bros", 
 "Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.","2017-09-08",
 "https://pics.filmaffinity.com/It-787119144-large.jpg",
@@ -203,6 +192,9 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("Tyler Rake","16", "Accion", "Sam Hargrave", 2.99, "Netflix", "Tyler Rake, un intrépido mercenario, es enviado a Bangladesh por un poderoso mafioso encarcelado para que salve a su hijo secuestrado.","2020-04-24",
 "https://pics.filmaffinity.com/Tyler_Rake-748147420-large.jpg",
 "https://www.youtube.com/watch?v=WPQq7fw_XMk",120),
+("Jurassic World: El reino caído","12", "Accion", "Juan Antonio Bayona", 4.4, "Owen y Claire intentan salvar a los dinosaurios que quedan en la isla ante el peligro de erupción de un volcán.","2018-05-21",
+"http://5b0988e595225.cdn.sohucs.com/images/20181220/1a6dca5dc03642989057386e77feb554.jpeg",
+"https://www.youtube.com/watch?v=Pbxxz5uytCo",129),
 -- Aventura
 ("The Batman","12", "Aventura", "Matt Reeves", 2.99, "DC Entertaiment", "En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entrará en conflicto con un asesino en serie conocido como 'el Acertijo'.","2022-03-04",
 "https://pics.filmaffinity.com/The_Batman-449856406-large.jpg",
@@ -211,10 +203,16 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("Top Gun Maverick","12", "Belico", "Joseph Kosinski", 3.99, "Paramount Pictures", "Tras más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete 'Maverick' Mitchel se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba.","2022-05-24",
 "https://pics.filmaffinity.com/Top_Gun_Maverick-863584703-large.jpg",
 "https://www.youtube.com/watch?v=zmFdhZ6gyUM",131),
+("Hasta el último hombre","16", "Belico", "Mel Gibson", 4.9, "Movistar+", "Esta es la historia de Desmond T. Doss, un hombre contrario a la violencia que combatió como médico en la Segunda Guerra Mundial sin portar un arma. No disparó ni una bala, pero salvó a 75 personas de la muerte en la batalla de la isla de Okinawa.","2016-11-23",
+"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/94677fc4ceb4d72363b5838aadc0e4b3f7c3cceea2df47ddd954f426b12d22f8._RI_V_TTW_.jpg",
+"https://www.youtube.com/watch?v=HpW6qzO4LHI",139),
 -- Musical 
 ("La La Land","12", "Musical", "Damien Chazelle", 4.39, "Summit Entertaiment", "La La Land es una película dramática y musical estadounidense de 2016, escrita y dirigida por Damien Chazelle, y protagonizada por Emma Stone y Ryan Gosling, una aspirante a actriz y un pianista de jazz que se conocen y enamoran en Los Ángeles, California.","2022-05-24",
 "https://pics.filmaffinity.com/La_ciudad_de_las_estrellas_La_La_Land-262021831-large.jpg",
 "https://www.youtube.com/watch?v=IHbHn5SLhZo",128),
+("West Side Story","12", "Musical", "Steven Spielberg", 3.9, "Disney+", "Dos adolescentes de diferentes raíces étnicas se enamoran en la ciudad de Nueva York de los años 50. ","2021-12-10",
+"https://www.fhkiruna.se/_UPL/affisch/1117.jpg",
+"https://www.youtube.com/watch?v=Q2Pg67Hfz3Q",156),
 -- Documental
 ("Elon Musk: The Real Life Iron Man","tp", "Documental", "Sonia Anderson", 3.39, "Netflix", "Este documental gira en torno a la vida de Elon Musk y sus innovadoras ideas en tecnología de viajes, inteligencia artificial y vuelos espaciales.","2018-05-14",
 "httpshttps://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f17d87c2ce071ecf1854d359c223f785c6226f862627f8beab86b75526f8722._RI_V_TTW_.jpg",
