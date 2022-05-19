@@ -465,7 +465,7 @@ VALUES
         155
     ),
     (
-        "Spìderman No Way Home",
+        "Spiderman No Way Home",
         "12",
         "Ciencia Ficcion",
         "Jhon Watts",
@@ -658,7 +658,7 @@ VALUES
         "Accion",
         "Juan Antonio Bayona",
         4.4,
-        "Netflix"
+        "Netflix",
         "Owen y Claire intentan salvar a los dinosaurios que quedan en la isla ante el peligro de erupción de un volcán.",
         "2018-05-21",
         "http://5b0988e595225.cdn.sohucs.com/images/20181220/1a6dca5dc03642989057386e77feb554.jpeg",
