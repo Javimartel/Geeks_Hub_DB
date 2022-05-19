@@ -178,10 +178,16 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("Creed II: Defendiendo el Legado","16", "Drama", "Steven Caple Jr", 2.95, "20TH FOX", "Creed debe defender el legado de su padre","2018-11-14",
 "https://m.media-amazon.com/images/I/81rpB-3qwoL._SL1500_.jpg",
 "https://www.youtube.com/watch?v=PK7E64G3LnI",112),
+("Muerte en Nilo","16", "Drama", "Kenneth Branagh", 3.00, "20TH FOX", "El detective Hercule Poirot investiga el asesinato de una rica y joven heredera a bordo del mismo crucero por el río Nilo en el que pasa las vacaciones Poirot.","2022-02-18",
+"https://pics.filmaffinity.com/Muerte_en_el_Nilo-335836399-large.jpg",
+"https://www.youtube.com/watch?v=2HQPNRtMbJ0",127),
 -- Comedia
 ("El Proyecto Adam","tp", "Comedia", "Shawn Levy", 2.45, "Netflix", "Adam viaja al pasado tras escaparse del Control de Seguridad del año 2050","2022-03-09",
 "https://pics.filmaffinity.com/El_proyecto_Adam-392719853-large.jpg",
 "https://www.youtube.com/watch?v=ZnJxmnko64o",136),
+("Vuelta al insti","12", "Comedia", "Alex Hardcastle", 2.75, "Netflix", "Una estudiante de secundaria y animadora entra en coma antes de su baile de graduación. Veinte años después, cuando se despierta, quiere volver al instituto para recuperar su popularidad y convertirse en la reina del baile de graduación.","2022-05-13",
+"https://i0.wp.com/noescinetodoloquereluce.com/wp-content/uploads/2022/05/Poster-Vuelta-al-insti.jpg?fit=429%2C600&ssl=1",
+"https://www.youtube.com/watch?v=sm6PsZ4D6vk",113),
 -- Fantasia
 ("Sonic 2","tp", "Fantasia", "Jeff Fowler", 3.7, "Paramount Pictures", "Sonic 2. La pelicula es una pelicula de comedia de accion y aventuras basada en la franquicia de videojuegos publicada por Sega. Es la secuela de Sonic, la pelicula y una vez mas esta dirigida por Jeff Fowler y escrita por Pat Casey, Josh Miller y John Whittington","1997-12-11",
 "https://es.web.img3.acsta.net/pictures/22/02/18/10/20/5195258.jpg",
@@ -190,7 +196,6 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("Fresh","16", "Terror", "Mimi Cave", 3.35, "Disney", "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.","2022-01-20",
 "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sensacine.com%2Fpeliculas%2Fpelicula-286323%2F&psig=AOvVaw2s4u8oAGbFpEW12hDvg311&ust=1652903539007000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCnguan5_cCFQAAAAAdAAAAABAD",
 "https://www.youtube.com/watch?v=wKk5VAK1GZQ",117),
-
 ("It","16", "Terror", "Andrés Muschietti", 4.32, "Warner Bros", 
 "Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.","2017-09-08",
 "https://pics.filmaffinity.com/It-787119144-large.jpg",
@@ -199,6 +204,9 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("Scream","18", "Suspense", "Matt Bettinelli-Olpin, Tyler Gillett", 2.85, "Paramount Pictures", "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.","2022-01-20",
 "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/41abe198c2d35b7db647d33b93a14a8014e71f598aa4f22e13006ccfdd03230a._RI_V_TTW_.jpg",
 "https://www.youtube.com/watch?v=LItQuV1bFf4",114),
+("Nadie","18", "Suspense", "Ilya Naishuller", 3.85, "Universal Pictures", "Un transeúnte interviene para ayudar a una mujer que está siendo acosada por un grupo de hombres y se convierte en el objetivo de un vengativo narcotraficante.","2021-03-26",
+"https://pics.filmaffinity.com/Nadie-793040499-large.jpg",
+"https://www.youtube.com/watch?v=Mzrib73dVbc",92),
 -- Accion
 ("Tyler Rake","16", "Accion", "Sam Hargrave", 2.99, "Netflix", "Tyler Rake, un intrépido mercenario, es enviado a Bangladesh por un poderoso mafioso encarcelado para que salve a su hijo secuestrado.","2020-04-24",
 "https://pics.filmaffinity.com/Tyler_Rake-748147420-large.jpg",
@@ -207,6 +215,9 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("The Batman","12", "Aventura", "Matt Reeves", 2.99, "DC Entertaiment", "En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entrará en conflicto con un asesino en serie conocido como 'el Acertijo'.","2022-03-04",
 "https://pics.filmaffinity.com/The_Batman-449856406-large.jpg",
 "https://www.youtube.com/watch?v=IqRRLA6pZvo",120),
+("Uncharted","16", "Aventura", "Ruben Fleischer", 3.69, "Sony Pictures", "Nathan Drake y su compañero Victor Sullivan se adentran en la peligrosa búsqueda del "mayor tesoro jamás encontrado". Al mismo tiempo, rastrean pistas que puedan conducir al hermano perdido de Drake.","2022-02-11",
+"https://pics.filmaffinity.com/Uncharted-417211360-large.jpg",
+"https://www.youtube.com/watch?v=t_uYnyHWOsY",115),
 -- Belico
 ("Top Gun Maverick","12", "Belico", "Joseph Kosinski", 3.99, "Paramount Pictures", "Tras más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete 'Maverick' Mitchel se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba.","2022-05-24",
 "https://pics.filmaffinity.com/Top_Gun_Maverick-863584703-large.jpg",
@@ -219,5 +230,8 @@ INSERT INTO Pelicula(Titulo, Calificacion_Edad, Genero, Director, Puntuacion_Med
 ("Elon Musk: The Real Life Iron Man","tp", "Documental", "Sonia Anderson", 3.39, "Netflix", "Este documental gira en torno a la vida de Elon Musk y sus innovadoras ideas en tecnología de viajes, inteligencia artificial y vuelos espaciales.","2018-05-14",
 "httpshttps://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f17d87c2ce071ecf1854d359c223f785c6226f862627f8beab86b75526f8722._RI_V_TTW_.jpg",
 "https://www.youtube.com/watch?v=qVxuLkvsknE",74),
+("El Estafador de Tinder","18", "Documental", "Felicity Morris", 4.39, "Netflix", "Él se hacía pasar por magnate con una vida de lujo y seducía a mujeres por Internet para robarles millones de dólares. Ahora, sus víctimas se han unido para vengarse juntas.","2022-02-02",
+"https://pics.filmaffinity.com/El_timador_de_Tinder-488072708-large.jpg",
+"https://www.youtube.com/watch?v=91WMWCCQUyg",74);
 
 SET FOREIGN_KEY_CHECKS = 1;
