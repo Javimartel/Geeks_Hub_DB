@@ -252,7 +252,7 @@ VALUES
     ("Perfil13", "S003", "2021-12-16");
 
 INSERT INTO
-    Series (
+    Serie (
         N_Temporada,
         Titulo,
         Calificacion_Edad,
@@ -378,9 +378,8 @@ VALUES
         "https://es.web.img3.acsta.net/pictures/19/06/03/09/48/4443572.jpg",
         "https://www.youtube.com/watch?v=oviaUj5eUzU",
         3
-    ),
+    );
     -- AÑADIR MAS SERIES
-    ();
 
 INSERT INTO
     Pelicula(

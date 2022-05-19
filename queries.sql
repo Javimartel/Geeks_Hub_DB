@@ -63,14 +63,15 @@ WHERE Genero = "Ciencia Ficcion";
 -- Consultas Compuestas
 
 -- Consulta 1: mostrar la lista de favoritos del perfil 5
-SELECT Cod_Contenido, Titulo, Genero
+SELECT Cod_Contenido, Titulo, Genero, 0 AS "Temporada"
 FROM Favoritos F
 INNER JOIN Contenido_Favorito Cf
 ON F.Cod_Favoritos = Cf.Cod_Favoritos
 INNER JOIN Pelicula P
 ON Cf.Cod_Contenido = P.Cod_Pelicula
+WHERE F.Cod_Favoritos = "FV05"
 UNION 
-SELECT Cod_Contenido, Titulo, Genero
+SELECT Cod_Contenido, Titulo, Genero, N_Temporada
 FROM Favoritos F
 INNER JOIN Contenido_Favorito Cf
 ON F.Cod_Favoritos = Cf.Cod_Favoritos
@@ -78,8 +79,40 @@ INNER JOIN Serie S
 ON Cf.Cod_Contenido = S.Cod_Serie
 WHERE F.Cod_Favoritos = "FV05";
 
+-- Resultado
++---------------+-----------------------+-----------------+-----------+
+| Cod_Contenido | Titulo                | Genero          | Temporada |
++---------------+-----------------------+-----------------+-----------+
+| P001          | Titanic               | Romance         |         0 |
+| P004          | Star Wars Episodio II | Ciencia Ficcion |         0 |
+| P007          | Avengers Infinity War | Ciencia Ficcion |         0 |
+| S005          | Black Mirror          | Ciencia Ficcion |         2 |
+| S006          | Black Mirror          | Ciencia Ficcion |         3 |
++---------------+-----------------------+-----------------+-----------+
+
 
 -- Consulta 2: mostrar el historial del perfil 9
+SELECT Cod_Contenido, Titulo, Genero, 0 AS "Temporada"
+FROM Historial H
+INNER JOIN Pelicula P
+ON H.Cod_Contenido = P.Cod_Pelicula
+WHERE H.Cod_Perfil = "Perfil9"
+UNION 
+SELECT Cod_Contenido, Titulo, Genero, N_Temporada
+FROM Historial H
+INNER JOIN Serie S
+ON H.Cod_Contenido = S.Cod_Serie
+WHERE H.Cod_Perfil = "Perfil9";
+
+-- Resultado
++---------------+--------------+-----------------+-----------+
+| Cod_Contenido | Titulo       | Genero          | Temporada |
++---------------+--------------+-----------------+-----------+
+| P001          | Titanic      | Romance         |         0 |
+| S003          | Marianne     | Terror          |         1 |
+| S004          | Black Mirror | Ciencia Ficcion |         1 |
+| S006          | Black Mirror | Ciencia Ficcion |         3 |
++---------------+--------------+-----------------+-----------+
 
 -- Consulta 3: mostrar los perfiles de "Javier"
 
