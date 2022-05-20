@@ -129,7 +129,6 @@ WHERE F.Cod_Favoritos = "FV05";
 | S006          | Black Mirror          | Ciencia Ficcion |         3 |
 +---------------+-----------------------+-----------------+-----------+
 
-
 -- Consulta 2: mostrar el historial del perfil 9
 
 SELECT Cod_Contenido, Titulo, Genero, 0 AS "Temporada"
