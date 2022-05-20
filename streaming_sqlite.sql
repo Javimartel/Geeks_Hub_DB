@@ -37,6 +37,46 @@ CREATE TABLE Serie (
     PRIMARY KEY(Cod_Serie, N_Temporada)
 );
 
+CREATE TABLE Pelicula (
+    Cod_Pelicula TEXT PRIMARY KEY,
+    Titulo TEXT NOT NULL,
+    Calificacion_Edad TEXT NOT NULL CHECk (Calificacion_Edad IN ("tp", "8", "12", "16", "18")),
+    Genero TEXT NOT NULL CHECK (Genero IN ("Suspense", "Terror", "Comedia", "Accion", "Drama", "Fantasia", "Romance", "Aventura", "Ciencia Ficcion", "Belico", "Musical", "Documental") ),
+    Director TEXT NOT NULL,
+    Puntuacion_Media REAL DEFAULT 0,
+    Productor REAL NOT NULL,
+    Sinopsis TEXT NOT NULL, 
+    Fecha_Publicacion TEXT NOT NULL,
+    Portada TEXT NOT NULL,
+    Trailer TEXT NOT NULL,
+    Duracion INTEGER NOT NULL
+);
+
+CREATE TABLE Favoritos (
+    Cod_Favoritos TEXT PRIMARY KEY,
+    Fecha_Creacion TEXT NOT NULL,
+    Fecha_Eliminacion TEXT
+);
+
+CREATE TABLE Contenido_Favorito (
+    Cod_Favoritos TEXT,
+    Cod_Contenido TEXT,
+    PRIMARY KEY(Cod_Favoritos, Cod_Contenido),
+    FOREIGN KEY (Cod_Contenido) REFERENCES Pelicula(Cod_Pelicula) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (Cod_Contenido) REFERENCES Serie(Cod_Serie) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (Cod_Favoritos) REFERENCES Favoritos(Cod_Favoritos) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE Historial (
+    Cod_Perfil TEXT,
+    Cod_Contenido TEXT,
+    Fecha_Visualizacion TEXT NOT NULL,
+    PRIMARY KEY(Cod_Perfil, Cod_Contenido)
+    FOREIGN KEY (Cod_Contenido) REFERENCES Pelicula(Cod_Pelicula) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (Cod_Contenido) REFERENCES Serie(Cod_Serie) ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (Cod_Favoritos) REFERENCES Favoritos(Cod_Favoritos) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
 CREATE TABLE Perfil (
     Cod_Perfil TEXT,
     Correo TEXT,
