@@ -56,28 +56,28 @@ WHERE Genero = "Ciencia Ficcion";
 
 -- Consulta 4: mostrar las series (nombre, puntuacion) con puntuacion media mayor a 4 
 
-SELECT Titulo, Puntuacion_Media 
+SELECT Titulo, N_Temporada, Puntuacion_Media
 FROM Serie
 WHERE Puntuacion_Media > 4;
 
 -- RESULTADO
 
-+---------------------+------------------+
-| Titulo              | Puntuacion_Media |
-+---------------------+------------------+
-| Elite               |             4.50 |
-| Black Mirror        |             4.50 |
-| Black Mirror        |             4.25 |
-| The Mandalorian     |             4.50 |
-| ?Quien mato a Sara? |             4.25 |
-| Bridgerton          |             4.50 |
-| Bridgerton          |             4.25 |
-| Dollface            |             4.50 |
-| Estacion 19         |             4.25 |
-| Estacion 19         |             4.25 |
-| Estacion 19         |             4.25 |
-| Estacion 19         |             4.25 |
-+---------------------+------------------+
++---------------------+-------------+------------------+
+| Titulo              | N_Temporada | Puntuacion_Media |
++---------------------+-------------+------------------+
+| Elite               |           1 |             4.50 |
+| Black Mirror        |           1 |             4.50 |
+| Black Mirror        |           5 |             4.25 |
+| The Mandalorian     |           1 |             4.50 |
+| ?Quien mato a Sara? |           1 |             4.25 |
+| Bridgerton          |           1 |             4.50 |
+| Bridgerton          |           2 |             4.25 |
+| Dollface            |           1 |             4.50 |
+| Estacion 19         |           1 |             4.25 |
+| Estacion 19         |           2 |             4.25 |
+| Estacion 19         |           3 |             4.25 |
+| Estacion 19         |           4 |             4.25 |
++---------------------+-------------+------------------+
 
 -- Consulta 5: mostrar las series publicadas en 2022
 
