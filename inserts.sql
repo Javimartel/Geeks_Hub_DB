@@ -253,22 +253,7 @@ VALUES
 
 -- Series --
 
-INSERT INTO
-    Serie (
-        N_Temporada,
-        Titulo,
-        Calificacion_Edad,
-        Genero,
-        Director,
-        Puntuacion_Media,
-        Productor,
-        Sinopsis,
-        Fecha_Publicacion,
-        Portada,
-        Trailer,
-        Capitulos
-    )
-VALUES
+INSERT INTO Serie VALUES
     -- Drama
     (
         "S001",
@@ -318,6 +303,7 @@ VALUES
     ),
     -- Ciencia Ficcion
     (
+        "S004",
         1,
         "Black Mirror",
         "18",
@@ -332,6 +318,7 @@ VALUES
         3
     ),
     (
+        "S005",
         2,
         "Black Mirror",
         "18",
@@ -346,6 +333,7 @@ VALUES
         3
     ),
     (
+        "S006",
         3,
         "Black Mirror",
         "18",
@@ -360,6 +348,7 @@ VALUES
         6
     ),
     (
+        "S007",
         4,
         "Black Mirror",
         "18",
@@ -374,6 +363,7 @@ VALUES
         6
     ),
     (
+        "S008",
         5,
         "Black Mirror",
         "18",
@@ -389,6 +379,7 @@ VALUES
     ),
     -- Fantasia
     (
+        "S009",
         1,
         "The Mandalorian",
         "12",
@@ -403,6 +394,7 @@ VALUES
         8
     ),
     (
+        "S010",
         2,
         "The Mandalorian",
         "12",
@@ -418,6 +410,7 @@ VALUES
     ),
     -- Suspense
     (
+        "S011",
         1,
         "¿Quien mato a Sara?",
         "16",
@@ -432,6 +425,7 @@ VALUES
         10
     ),
     (
+        "S012",
         2,
         "¿Quien mato a Sara?",
         "16",
@@ -446,6 +440,7 @@ VALUES
         8
     ),
     (
+        "S013",
         3,
         "¿Quien mato a Sara?",
         "16",
@@ -461,6 +456,7 @@ VALUES
     ),
     -- Romance 
     (
+        "S014",
         1,
         "Bridgerton",
         "12",
@@ -475,6 +471,7 @@ VALUES
         8
     ),
     (
+        "S015",
         2,
         "Bridgerton",
         "12",
@@ -490,6 +487,7 @@ VALUES
     ),
     -- Documental
     (
+        "S016",
         1,
         "En pocas palabras",
         "12",
@@ -504,6 +502,7 @@ VALUES
         20
     ),
     (
+        "S017",
         2,
         "En pocas palabras",
         "12",
@@ -518,6 +517,7 @@ VALUES
         10
     ),
     (
+        "S018",
         3,
         "En pocas palabras",
         "12",
@@ -533,6 +533,7 @@ VALUES
     ),
     -- Musical
     (
+        "S019",
         1,
         "Erase una vez... pero ya no",
         "12",
@@ -548,6 +549,7 @@ VALUES
     ),
     -- Belico
     (
+        "S020",
         1,
         "The Liberator",
         "16",
@@ -562,6 +564,7 @@ VALUES
         4
     ),
     (
+        "S021",
         1,
         "Barbaros",
         "16",
@@ -577,6 +580,7 @@ VALUES
     ),
     -- Comedia
     (
+        "S022",
         1,
         "Dollface",
         "16",
@@ -591,6 +595,7 @@ VALUES
         10
     ),
     (
+        "S023",
         2,
         "Dollface",
         "16",
@@ -606,6 +611,7 @@ VALUES
     ),
     -- Accion
     (
+        "S024",
         1,
         "Estacion 19",
         "12",
@@ -620,6 +626,7 @@ VALUES
         10
     ),
     (
+        "S025",
         2,
         "Estacion 19",
         "12",
@@ -634,6 +641,7 @@ VALUES
         17
     ),
     (
+        "S026",
         3,
         "Estacion 19",
         "12",
@@ -648,6 +656,7 @@ VALUES
         16
     ),
     (
+        "S027",
         4,
         "Estacion 19",
         "12",
@@ -664,23 +673,10 @@ VALUES
 
 -- Peliculas --
 
-INSERT INTO
-    Pelicula (
-        Titulo,
-        Calificacion_Edad,
-        Genero,
-        Director,
-        Puntuacion_Media,
-        Productor,
-        Sinopsis,
-        Fecha_Publicacion,
-        Portada,
-        Trailer,
-        Duracion
-    )
-VALUES
+INSERT INTO Pelicula VALUES
     -- Romance
     (
+        "P001",
         "Titanic",
         "tp",
         "Romance",
@@ -694,6 +690,7 @@ VALUES
         120
     ),
     (
+        "P002",
         "Yo antes de ti",
         "12",
         "Romance",
@@ -708,6 +705,7 @@ VALUES
     ),
     -- Ciencia Ficción
     (
+        "P003",
         "Star Wars Episodio I",
         "tp",
         "Ciencia Ficcion",
@@ -721,6 +719,7 @@ VALUES
         134
     ),
     (
+        "P004",
         "Star Wars Episodio II",
         "tp",
         "Ciencia Ficcion",
@@ -734,6 +733,7 @@ VALUES
         145
     ),
     (
+        "P005",
         "Avatar",
         "tp",
         "Ciencia Ficcion",
@@ -747,6 +747,7 @@ VALUES
         155
     ),
     (
+        "P006",
         "Spiderman No Way Home",
         "12",
         "Ciencia Ficcion",
@@ -760,6 +761,7 @@ VALUES
         155
     ),
     (
+        "P007",
         "Avengers Infinity War",
         "tp",
         "Ciencia Ficcion",
@@ -773,6 +775,7 @@ VALUES
         160
     ),
     (
+        "P008",
         "Avengers End Game",
         "tp",
         "Ciencia Ficcion",
@@ -787,6 +790,7 @@ VALUES
     ),
     -- Drama
     (
+        "P009",
         "Creed II: Defendiendo el Legado",
         "16",
         "Drama",
@@ -800,6 +804,7 @@ VALUES
         112
     ),
     (
+        "P010",
         "Muerte en Nilo",
         "16",
         "Drama",
@@ -814,6 +819,7 @@ VALUES
     ),
     -- Comedia
     (
+        "P011",
         "El Proyecto Adam",
         "tp",
         "Comedia",
@@ -827,6 +833,7 @@ VALUES
         136
     ),
     (
+        "P012",
         "Vuelta al insti",
         "12",
         "Comedia",
@@ -841,6 +848,7 @@ VALUES
     ),
     -- Fantasia
     (
+        "P013",
         "Sonic 2",
         "tp",
         "Fantasia",
@@ -854,6 +862,7 @@ VALUES
         145
     ),
     (
+        "P014",
         "Encanto",
         "tp",
         "Fantasia",
@@ -868,6 +877,7 @@ VALUES
     ),
     -- Terror
     (
+        "P015",
         "Fresh",
         "16",
         "Terror",
@@ -881,6 +891,7 @@ VALUES
         117
     ),
     (
+        "P016",
         "It",
         "16",
         "Terror",
@@ -895,6 +906,7 @@ VALUES
     ),
     -- Suspense
     (
+        "P017",
         "Scream",
         "18",
         "Suspense",
@@ -908,6 +920,7 @@ VALUES
         114
     ),
     (
+        "P018",
         "Nadie",
         "18",
         "Suspense",
@@ -922,6 +935,7 @@ VALUES
     ),
     -- Accion
     (
+        "P019",
         "Tyler Rake",
         "16",
         "Accion",
@@ -935,6 +949,7 @@ VALUES
         120
     ),
     (
+        "P020",
         "Jurassic World: El reino caído",
         "12",
         "Accion",
@@ -949,6 +964,7 @@ VALUES
     ),
     -- Aventura
     (
+        "P021",
         "The Batman",
         "12",
         "Aventura",
@@ -962,6 +978,7 @@ VALUES
         120
     ),
     (
+        "P022",
         "Uncharted",
         "16",
         "Aventura",
@@ -976,6 +993,7 @@ VALUES
     ),
     -- Belico
     (
+        "P023",
         "Top Gun Maverick",
         "12",
         "Belico",
@@ -989,6 +1007,7 @@ VALUES
         131
     ),
     (
+        "P024",
         "Hasta el último hombre",
         "16",
         "Belico",
@@ -1003,6 +1022,7 @@ VALUES
     ),
     -- Musical 
     (
+        "P025",
         "La La Land",
         "12",
         "Musical",
@@ -1016,6 +1036,7 @@ VALUES
         128
     ),
     (
+        "P026",
         "West Side Story",
         "12",
         "Musical",
@@ -1030,6 +1051,7 @@ VALUES
     ),
     -- Documental
     (
+        "P027",
         "Elon Musk: The Real Life Iron Man",
         "tp",
         "Documental",
@@ -1043,6 +1065,7 @@ VALUES
         74
     ),
     (
+        "P028",
         "El Estafador de Tinder",
         "18",
         "Documental",
