@@ -271,6 +271,7 @@ INSERT INTO
 VALUES
     -- Drama
     (
+        "S001",
         1,
         "Elite",
         "12",
@@ -285,6 +286,7 @@ VALUES
         8
     ),
     (
+        "S002",
         2,
         "Elite",
         "12",
@@ -300,6 +302,7 @@ VALUES
     ),
     -- Terror
     (
+        "S003",
         1,
         "Marianne",
         "16",
