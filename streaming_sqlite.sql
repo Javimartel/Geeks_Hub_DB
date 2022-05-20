@@ -4,9 +4,9 @@ USE streaming;
 
 CREATE TABLE Suscripcion (
     Tipo_Suscripcion TEXT CHECK (Tipo_Suscripcion IN ("Basico", "Estandar", "Premium")) PRIMARY KEY,
-    Precio REAL,
+    Precio REAL CHECK (Precio > 0),
     Calidad_Videos TEXT,
-    Max_Dispositivos INTEGER        
+    Max_Dispositivos INTEGER CHECK (Max_Dispositivos > 0)     
 );
 
 CREATE TABLE Cuenta (
@@ -22,12 +22,12 @@ CREATE TABLE Cuenta (
 
 CREATE TABLE Serie (
     Cod_Serie TEXT,
-    N_Temporada INTEGER,
+    N_Temporada INTEGER CHECK (N_Temporada > 0),
     Titulo TEXT NOT NULL,
-    Calificacion_Edad TEXT NOT NULL CHECk (Calificacion_Edad IN ("tp", "8", "12", "16", "18")),
+    Calificacion_Edad TEXT NOT NULL CHECK (Calificacion_Edad IN ("tp", "8", "12", "16", "18")),
     Genero TEXT NOT NULL CHECK (Genero IN ("Suspense", "Terror", "Comedia", "Accion", "Drama", "Fantasia", "Romance", "Aventura", "Ciencia Ficcion", "Belico", "Musical", "Documental") ),
     Director TEXT NOT NULL,
-    Puntuacion_Media REAL DEFAULT 0,
+    Puntuacion_Media REAL DEFAULT 0 CHECK (Puntuacion_Media >= 0),
     Productor REAL NOT NULL,
     Sinopsis TEXT NOT NULL, 
     Fecha_Publicacion TEXT NOT NULL,
@@ -40,21 +40,21 @@ CREATE TABLE Serie (
 CREATE TABLE Pelicula (
     Cod_Pelicula TEXT PRIMARY KEY,
     Titulo TEXT NOT NULL,
-    Calificacion_Edad TEXT NOT NULL CHECk (Calificacion_Edad IN ("tp", "8", "12", "16", "18")),
+    Calificacion_Edad TEXT NOT NULL CHECK (Calificacion_Edad IN ("tp", "8", "12", "16", "18")),
     Genero TEXT NOT NULL CHECK (Genero IN ("Suspense", "Terror", "Comedia", "Accion", "Drama", "Fantasia", "Romance", "Aventura", "Ciencia Ficcion", "Belico", "Musical", "Documental") ),
     Director TEXT NOT NULL,
-    Puntuacion_Media REAL DEFAULT 0,
+    Puntuacion_Media REAL DEFAULT 0 CHECK (Puntuacion_Media >= 0),
     Productor REAL NOT NULL,
     Sinopsis TEXT NOT NULL, 
     Fecha_Publicacion TEXT NOT NULL,
     Portada TEXT NOT NULL,
     Trailer TEXT NOT NULL,
-    Duracion INTEGER NOT NULL
+    Duracion INTEGER NOT NULL CHECK (Duracion >= 0)
 );
 
 CREATE TABLE Favoritos (
     Cod_Favoritos TEXT PRIMARY KEY,
-    Fecha_Creacion TEXT NOT NULL,
+    Fecha_Creacion TEXT NOT NULL CHECK (Fecha_Creacion <= Fecha_Eliminacion),
     Fecha_Eliminacion TEXT
 );
 
