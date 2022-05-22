@@ -73,8 +73,7 @@ CREATE TABLE Historial (
     Fecha_Visualizacion TEXT NOT NULL,
     PRIMARY KEY(Cod_Perfil, Cod_Contenido)
     FOREIGN KEY (Cod_Contenido) REFERENCES Pelicula(Cod_Pelicula) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (Cod_Contenido) REFERENCES Serie(Cod_Serie) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (Cod_Favoritos) REFERENCES Favoritos(Cod_Favoritos) ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (Cod_Contenido) REFERENCES Serie(Cod_Serie) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE Perfil (
