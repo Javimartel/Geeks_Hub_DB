@@ -1,6 +1,5 @@
 -- Insercion de Datos --
-SET
-    FOREIGN_KEY_CHECKS = 0;
+PRAGMA foreign_keys = OFF;
 
 INSERT INTO
     Cuenta
@@ -1079,6 +1078,4 @@ INSERT INTO Pelicula VALUES
         74
     );
 
-SET
-    FOREIGN_KEY_CHECKS = 1;
-    
+PRAGMA foreign_keys = OFF;
