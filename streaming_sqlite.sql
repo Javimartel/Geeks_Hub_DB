@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS streaming;
 CREATE DATABASE streaming;
 USE streaming;
-
+--
 CREATE TABLE Suscripcion (
     Tipo_Suscripcion TEXT CHECK (Tipo_Suscripcion IN ("Basico", "Estandar", "Premium")) PRIMARY KEY,
     Precio REAL CHECK (Precio > 0),
