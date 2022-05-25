@@ -168,25 +168,31 @@ WHERE Nombre = "Javier";
 | Perfil6    | Javi2    |
 +------------+----------+
 
--- Consulta 4: mostrar los datos de perfiles que hayan eliminado su lista de favoritos
+-- Consulta 4: mostrar todas las series de la lista de favoritos de la cuenta de "Raul" (de todos los perfiles)
 
-SELECT P.Cod_Perfil, P.Nickname, F.*
-FROM Perfil P 
+SELECT P.Cod_Perfil, P.Nickname, F.Cod_Favoritos, S.Titulo, S.N_Temporada
+FROM Cuenta C
+INNER JOIN Perfil P 
+ON C.Correo = P.Correo
 INNER JOIN Favoritos F
 ON P.Cod_Favoritos = F.Cod_Favoritos
-WHERE F.Fecha_Eliminacion != "NULL";
+INNER JOIN Contenido_Favorito Cf
+ON F.Cod_Favoritos = Cf.Cod_Favoritos
+INNER JOIN Serie S
+ON Cf.Cod_Contenido = S.Cod_Serie
+WHERE C.Nombre = "Raul";
 
 -- RESULTADO
 
-+------------+----------+---------------+----------------+-------------------+
-| Cod_Perfil | Nickname | Cod_Favoritos | Fecha_Creacion | Fecha_Eliminacion |
-+------------+----------+---------------+----------------+-------------------+
-| Perfil11   | Ivan     | FV11          | 2022-03-19     | 2022-05-10        |
-| Perfil2    | Juani    | FV02          | 2021-11-22     | 2022-01-03        |
-| Perfil5    | Javi     | FV05          | 2022-01-02     | 2022-03-08        |
-| Perfil7    | Lau      | FV07          | 2022-02-11     | 2022-03-12        |
-| Perfil8    | Luisa    | FV08          | 2022-02-24     | 2022-04-01        |
-+------------+----------+---------------+----------------+-------------------+
++------------+----------+---------------+--------------+-------------+
+| Cod_Perfil | Nickname | Cod_Favoritos | Titulo       | N_Temporada |
++------------+----------+---------------+--------------+-------------+
+| Perfil10   | Raul     | FV10          | Black Mirror |           2 |
+| Perfil11   | Ivan     | FV11          | Elite        |           2 |
+| Perfil12   | Paco     | FV12          | Black Mirror |           2 |
+| Perfil13   | Mario    | FV13          | Elite        |           2 |
+| Perfil13   | Mario    | FV13          | Marianne     |           1 |
++------------+----------+---------------+--------------+-------------+
 
 -- Consulta 5: mostrar los perfiles que hayan consumido series del genero "Ciencia Ficcion"
 
