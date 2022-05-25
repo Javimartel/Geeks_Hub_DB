@@ -27,13 +27,12 @@ CREATE TABLE Suscripcion (
     Tipo_Suscripcion ENUM("Basico", "Estandar", "Premium") PRIMARY KEY,
     Precio DEC(5,2),
     Calidad_Videos VARCHAR(10), -- "HD", "Full HD", "4k"
-    Max_Dispositivos INT         -- Elegir maximo
+    Max_Dispositivos INT         
 );
 
-CREATE TABLE Favoritos ( -- ¿Lista_Favoritos?
+CREATE TABLE Favoritos ( 
     Cod_Favoritos CHAR(4) PRIMARY KEY,
-    Fecha_Creacion DATE NOT NULL,
-    Fecha_Eliminacion DATE
+    Fecha_Creacion DATE NOT NULL
 );
 
 CREATE TABLE Contenido_Favorito (
@@ -97,9 +96,6 @@ ALTER TABLE Historial ADD FOREIGN KEY (Cod_Contenido) REFERENCES Serie(Cod_Serie
 ALTER TABLE Historial ADD FOREIGN KEY (Cod_Perfil) REFERENCES Perfil(Cod_Perfil) ON UPDATE CASCADE ON DELETE CASCADE;
 
 -- Restricciones (CHECK) --
-
--- Favoritos Fecha_Creacion <= Fecha_Eliminacion
-ALTER TABLE Favoritos ADD CONSTRAINT CreacionMayorEliminacion CHECK (Fecha_Creacion <= Fecha_Eliminacion);
 
 -- Puntuacion_media > 0
 ALTER TABLE Pelicula ADD CONSTRAINT ValoracionMayorIgualCero CHECK (Puntuacion_Media >= 0);
