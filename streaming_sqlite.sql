@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS streaming;
 CREATE DATABASE streaming;
 USE streaming;
---
+
 CREATE TABLE Suscripcion (
     Tipo_Suscripcion TEXT CHECK (Tipo_Suscripcion IN ("Basico", "Estandar", "Premium")) PRIMARY KEY,
     Precio REAL CHECK (Precio > 0),
@@ -54,8 +54,7 @@ CREATE TABLE Pelicula (
 
 CREATE TABLE Favoritos (
     Cod_Favoritos TEXT PRIMARY KEY,
-    Fecha_Creacion TEXT NOT NULL CHECK (Fecha_Creacion <= Fecha_Eliminacion),
-    Fecha_Eliminacion TEXT
+    Fecha_Creacion TEXT NOT NULL
 );
 
 CREATE TABLE Contenido_Favorito (
