@@ -54,7 +54,7 @@ CREATE TABLE Pelicula (
 
 CREATE TABLE Favoritos (
     Cod_Favoritos TEXT PRIMARY KEY,
-    Fecha_Creacion TEXT NOT NULL CHECK (Fecha_Creacion <= Fecha_Eliminacion),
+    Fecha_Creacion TEXT NOT NULL,
 );
 
 CREATE TABLE Contenido_Favorito (
