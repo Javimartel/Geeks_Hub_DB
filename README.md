@@ -32,8 +32,7 @@ $ git clone https://github.com/Javimartel/Geeks_Hub_DB.git
 
 En primer lugar hemos creado el **Diagrama Entidad-Relación**, para poder unir cada tabla y obtener las **relaciones** correspondientes junto a sus **cardinalidades**, además de conocer los **atributos** pertenecientes a cada tabla.
 
-![Diagrama Entidad-Relación](https://i.imgur.com/cPeuHFe.png)
-
+![Diagrama Entidad-Relación](https://i.imgur.com/vIDdqpI.png)
 
 ---
 
