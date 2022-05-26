@@ -33,7 +33,6 @@ CREATE TABLE Suscripcion (
 CREATE TABLE Favoritos ( -- ¿Lista_Favoritos?
     Cod_Favoritos CHAR(4) PRIMARY KEY,
     Fecha_Creacion DATE NOT NULL,
-    Fecha_Eliminacion DATE
 );
 
 CREATE TABLE Contenido_Favorito (
