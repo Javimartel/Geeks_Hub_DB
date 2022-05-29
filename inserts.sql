@@ -684,7 +684,7 @@ INSERT INTO Pelicula VALUES
         "Warner Bros",
         "Pelicula que narra la historia del hundimiento del Titanic",
         "1997-12-11",
-        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLITJy5IWUAnLlg6dtv8Pfgvf2Emoi8vjaqIUD_9tLWiPTbFv6",
+        "/static/img/movies/titanic.jpg",
         "https://www.youtube.com/watch?v=wMZuro21wtE",
         120
     ),
@@ -698,7 +698,7 @@ INSERT INTO Pelicula VALUES
         "Netflix",
         "A menudo uno encuentra al amor donde menos lo espera. A veces te lleva a donde nunca imaginaste ir... ",
         "2016-07-01",
-        "https://m.media-amazon.com/images/M/MV5BMmQxNzQyNTItMjM1OS00M2Q0LTg4YzUtNzlhZDJiNjNjM2FlXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg",
+        "/static/img/movies/yo_antes_de_ti.jpg",
         "https://www.youtube.com/watch?v=77wgbw-NKnY",
         110
     ),
@@ -713,7 +713,7 @@ INSERT INTO Pelicula VALUES
         "20TH FOX",
         "La amenaza Fantasma",
         "1999-05-19",
-        "https://es.web.img2.acsta.net/medias/nmedia/18/86/33/09/19835623.jpg",
+        "/static/img/movies/SW_E1.jpg",
         "https://www.youtube.com/watch?v=n1CUHjrc9Sc",
         134
     ),
@@ -727,7 +727,7 @@ INSERT INTO Pelicula VALUES
         "20TH FOX",
         "La batalla de los clones",
         "2002-05-17",
-        "https://basededatos.atrae.org/media/works/oZNPzxqM2s5DyVWab09NTQScDQt.jpg",
+        "/static/img/movies/SW_E2.jpg",
         "https://www.youtube.com/watch?v=DywnxIuPtUs",
         145
     ),
@@ -741,7 +741,7 @@ INSERT INTO Pelicula VALUES
         "20TH FOX",
         "Aventura en el espacio en un planeta lleno de vida y recursos",
         "2009-12-08",
-        "https://static.wikia.nocookie.net/james-camerons-avatar/images/a/a7/Caratula_de_Avatar.png/revision/latest?cb=20150218032222&path-prefix=es",
+        "/static/img/movies/avatar.jpg",
         "https://www.youtube.com/watch?v=Xg8kYk6uHN0",
         155
     ),
@@ -755,7 +755,7 @@ INSERT INTO Pelicula VALUES
         "Marvel Studios",
         "Spiderman lucha por devolver la normalidad al Multiverso",
         "2021-12-17",
-        "https://pics.filmaffinity.com/Spider_Man_No_Way_Home-642739124-large.jpg",
+        "/static/img/movies/spiderman_no_way_home.jpg",
         "https://www.youtube.com/watch?v=ldMn-1iQzKE",
         155
     ),
@@ -769,7 +769,7 @@ INSERT INTO Pelicula VALUES
         "Marvel Studios",
         "Los vengadores se enfrentan a la amenaza mas importante: Thanos",
         "2018-04-27",
-        "https://m.media-amazon.com/images/I/81GfZasnt9L._SL1371_.jpg",
+        "/static/img/movies/avengers_infinity_war.jpg",
         "https://www.youtube.com/watch?v=-f5PwE_Q8Fs",
         160
     ),
@@ -783,7 +783,7 @@ INSERT INTO Pelicula VALUES
         "Marvel Studios",
         "La lucha final para restablecer la vida en el Universo Marvel",
         "2019-04-25",
-        "https://m.media-amazon.com/images/I/81GfZasnt9L._SL1371_.jpg",
+        "/static/img/movies/avengers_end_game.jpg",
         "https://www.youtube.com/watch?v=UQ3bqYKnyhM",
         165
     ),
@@ -798,7 +798,7 @@ INSERT INTO Pelicula VALUES
         "20TH FOX",
         "Creed debe defender el legado de su padre",
         "2018-11-14",
-        "https://m.media-amazon.com/images/I/81rpB-3qwoL._SL1500_.jpg",
+        "/static/img/movies/ceedII.jpg",
         "https://www.youtube.com/watch?v=PK7E64G3LnI",
         112
     ),
@@ -812,7 +812,7 @@ INSERT INTO Pelicula VALUES
         "20TH FOX",
         "El detective Hercule Poirot investiga el asesinato de una rica y joven heredera a bordo del mismo crucero por el río Nilo en el que pasa las vacaciones Poirot.",
         "2022-02-18",
-        "https://pics.filmaffinity.com/Muerte_en_el_Nilo-335836399-large.jpg",
+        "/static/img/movies/muerte_en_nilo.jpg",
         "https://www.youtube.com/watch?v=2HQPNRtMbJ0",
         127
     ),
@@ -827,7 +827,7 @@ INSERT INTO Pelicula VALUES
         "Netflix",
         "Adam viaja al pasado tras escaparse del Control de Seguridad del año 2050",
         "2022-03-09",
-        "https://pics.filmaffinity.com/El_proyecto_Adam-392719853-large.jpg",
+        "/static/img/movies/poyecto_adam.jpg",
         "https://www.youtube.com/watch?v=ZnJxmnko64o",
         136
     ),
@@ -841,7 +841,7 @@ INSERT INTO Pelicula VALUES
         "Netflix",
         "Una estudiante de secundaria y animadora entra en coma antes de su baile de graduación. Veinte años después, cuando se despierta, quiere volver al instituto para recuperar su popularidad y convertirse en la reina del baile de graduación.",
         "2022-05-13",
-        "https://i0.wp.com/noescinetodoloquereluce.com/wp-content/uploads/2022/05/Poster-Vuelta-al-insti.jpg?fit=429%2C600&ssl=1",
+        "/static/img/movies/vuelta_al_insti.jpg",
         "https://www.youtube.com/watch?v=sm6PsZ4D6vk",
         113
     ),
@@ -856,7 +856,7 @@ INSERT INTO Pelicula VALUES
         "Paramount Pictures",
         "Sonic 2. La pelicula es una pelicula de comedia de accion y aventuras basada en la franquicia de videojuegos publicada por Sega. Es la secuela de Sonic, la pelicula y una vez mas esta dirigida por Jeff Fowler y escrita por Pat Casey, Josh Miller y John Whittington",
         "1997-12-11",
-        "https://es.web.img3.acsta.net/pictures/22/02/18/10/20/5195258.jpg",
+        "/static/img/movies/sonic2.jpg",
         "https://www.youtube.com/watch?v=cF5uf8a2Xds",
         145
     ),
@@ -870,7 +870,7 @@ INSERT INTO Pelicula VALUES
         "Disney",
         "En una casa mágica, vive la extraordinaria familia Madrigal donde todos tienen habilidades fantásticas.",
         "2021-11-26",
-        "https://laminute.info/wp-content/uploads/2021/11/29323514.jpg",
+        "/static/img/movies/encanto.jpg",
         "https://www.youtube.com/watch?v=SAH_W9q_brE",
         109
     ),
@@ -885,7 +885,7 @@ INSERT INTO Pelicula VALUES
         "Disney",
         "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.",
         "2022-01-20",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sensacine.com%2Fpeliculas%2Fpelicula-286323%2F&psig=AOvVaw2s4u8oAGbFpEW12hDvg311&ust=1652903539007000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCnguan5_cCFQAAAAAdAAAAABAD",
+        "/static/img/movies/fresh.jpg",
         "https://www.youtube.com/watch?v=wKk5VAK1GZQ",
         117
     ),
@@ -899,7 +899,7 @@ INSERT INTO Pelicula VALUES
         "Warner Bros",
         "Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil.",
         "2017-09-08",
-        "https://pics.filmaffinity.com/It-787119144-large.jpg",
+        "/static/img/movies/it.jpg",
         "https://www.youtube.com/watch?v=9jhtucvduSw",
         135
     ),
@@ -914,7 +914,7 @@ INSERT INTO Pelicula VALUES
         "Paramount Pictures",
         "Fresh sigue a Noa, quien conoce al atractivo Steve en una tienda de comestibles y, dada su frustracion con las aplicaciones de citas, se arriesga y le da su numero.",
         "2022-01-20",
-        "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/41abe198c2d35b7db647d33b93a14a8014e71f598aa4f22e13006ccfdd03230a._RI_V_TTW_.jpg",
+        "/static/img/movies/scream.jpg",
         "https://www.youtube.com/watch?v=LItQuV1bFf4",
         114
     ),
@@ -928,7 +928,7 @@ INSERT INTO Pelicula VALUES
         "Universal Pictures",
         "Un transeúnte interviene para ayudar a una mujer que está siendo acosada por un grupo de hombres y se convierte en el objetivo de un vengativo narcotraficante.",
         "2021-03-26",
-        "https://pics.filmaffinity.com/Nadie-793040499-large.jpg",
+        "/static/img/movies/nadie.jpg",
         "https://www.youtube.com/watch?v=Mzrib73dVbc",
         92
     ),
@@ -943,7 +943,7 @@ INSERT INTO Pelicula VALUES
         "Netflix",
         "Tyler Rake, un intrépido mercenario, es enviado a Bangladesh por un poderoso mafioso encarcelado para que salve a su hijo secuestrado.",
         "2020-04-24",
-        "https://pics.filmaffinity.com/Tyler_Rake-748147420-large.jpg",
+        "/static/img/movies/tyler_rake.jpg",
         "https://www.youtube.com/watch?v=WPQq7fw_XMk",
         120
     ),
@@ -957,7 +957,7 @@ INSERT INTO Pelicula VALUES
         "Netflix",
         "Owen y Claire intentan salvar a los dinosaurios que quedan en la isla ante el peligro de erupción de un volcán.",
         "2018-05-21",
-        "http://5b0988e595225.cdn.sohucs.com/images/20181220/1a6dca5dc03642989057386e77feb554.jpeg",
+        "/static/img/movies/JW_reino_caido.jpg",
         "https://www.youtube.com/watch?v=Pbxxz5uytCo",
         129
     ),
@@ -972,7 +972,7 @@ INSERT INTO Pelicula VALUES
         "DC Entertaiment",
         "En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entrará en conflicto con un asesino en serie conocido como 'el Acertijo'.",
         "2022-03-04",
-        "https://pics.filmaffinity.com/The_Batman-449856406-large.jpg",
+        "/static/img/movies/the_batman.jpg",
         "https://www.youtube.com/watch?v=IqRRLA6pZvo",
         120
     ),
@@ -986,7 +986,7 @@ INSERT INTO Pelicula VALUES
         "Sony Pictures",
         "Nathan Drake y su compañero Victor Sullivan se adentran en la peligrosa búsqueda del mayor tesoro jamás encontrado. Al mismo tiempo, rastrean pistas que puedan conducir al hermano perdido de Drake.",
         "2022-02-11",
-        "https://pics.filmaffinity.com/Uncharted-417211360-large.jpg",
+        "/static/img/movies/uncharted.jpg",
         "https://www.youtube.com/watch?v=t_uYnyHWOsY",
         115
     ),
@@ -1001,7 +1001,7 @@ INSERT INTO Pelicula VALUES
         "Paramount Pictures",
         "Tras más de 30 años de servicio como uno de los mejores aviadores de la Armada, Pete 'Maverick' Mitchel se encuentra dónde siempre quiso estar, empujando los límites como un valiente piloto de prueba.",
         "2022-05-24",
-        "https://pics.filmaffinity.com/Top_Gun_Maverick-863584703-large.jpg",
+        "/static/img/movies/top_gun_maverick.jpg",
         "https://www.youtube.com/watch?v=zmFdhZ6gyUM",
         131
     ),
@@ -1015,7 +1015,7 @@ INSERT INTO Pelicula VALUES
         "Movistar+",
         "Esta es la historia de Desmond T. Doss, un hombre contrario a la violencia que combatió como médico en la Segunda Guerra Mundial sin portar un arma. No disparó ni una bala, pero salvó a 75 personas de la muerte en la batalla de la isla de Okinawa.",
         "2016-11-23",
-        "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/94677fc4ceb4d72363b5838aadc0e4b3f7c3cceea2df47ddd954f426b12d22f8._RI_V_TTW_.jpg",
+        "/static/img/movies/hasta_el_ultimo_hombre.jpg",
         "https://www.youtube.com/watch?v=HpW6qzO4LHI",
         139
     ),
@@ -1030,7 +1030,7 @@ INSERT INTO Pelicula VALUES
         "Summit Entertaiment",
         "La La Land es una película dramática y musical estadounidense de 2016, escrita y dirigida por Damien Chazelle, y protagonizada por Emma Stone y Ryan Gosling, una aspirante a actriz y un pianista de jazz que se conocen y enamoran en Los Ángeles, California.",
         "2022-05-24",
-        "https://pics.filmaffinity.com/La_ciudad_de_las_estrellas_La_La_Land-262021831-large.jpg",
+        "/static/img/movies/la_la_land.jpg",
         "https://www.youtube.com/watch?v=IHbHn5SLhZo",
         128
     ),
@@ -1044,7 +1044,7 @@ INSERT INTO Pelicula VALUES
         "Disney+",
         "Dos adolescentes de diferentes raíces étnicas se enamoran en la ciudad de Nueva York de los años 50. ",
         "2021-12-10",
-        "https://www.fhkiruna.se/_UPL/affisch/1117.jpg",
+        "/static/img/movies/west_side_story.jpg",
         "https://www.youtube.com/watch?v=Q2Pg67Hfz3Q",
         156
     ),
@@ -1059,7 +1059,7 @@ INSERT INTO Pelicula VALUES
         "Netflix",
         "Este documental gira en torno a la vida de Elon Musk y sus innovadoras ideas en tecnología de viajes, inteligencia artificial y vuelos espaciales.",
         "2018-05-14",
-        "httpshttps://images-na.ssl-images-amazon.com/images/S/pv-target-images/3f17d87c2ce071ecf1854d359c223f785c6226f862627f8beab86b75526f8722._RI_V_TTW_.jpg",
+        "/static/img/movies/elon_musk.jpg",
         "https://www.youtube.com/watch?v=qVxuLkvsknE",
         74
     ),
@@ -1073,7 +1073,7 @@ INSERT INTO Pelicula VALUES
         "Netflix",
         "Él se hacía pasar por magnate con una vida de lujo y seducía a mujeres por Internet para robarles millones de dólares. Ahora, sus víctimas se han unido para vengarse juntas.",
         "2022-02-02",
-        "https://pics.filmaffinity.com/El_timador_de_Tinder-488072708-large.jpg",
+        "/static/img/movies/estafador_de_tinder.jpg",
         "https://www.youtube.com/watch?v=91WMWCCQUyg",
         74
     );
