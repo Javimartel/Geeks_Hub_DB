@@ -265,7 +265,7 @@ INSERT INTO Serie VALUES
         "Zeta Studios",
         "Tres alumnos becados comienzan a estudiar en un prestigioso colegio donde las diferencias entre los alumnos provocan un asesinato",
         "2018-10-05",
-        "https://bolavip.com/__export/1595263470964/sites/bolavip/img/2020/07/20/elite_serie_netflix_portada_crop1595263470483.jpg_242310155.jpg",
+        "/static/img/series/elite.jpg",
         "https://www.youtube.com/watch?v=4rTBAlB1JkQ",
         8
     ),
@@ -280,7 +280,7 @@ INSERT INTO Serie VALUES
         "Zeta Studios",
         "Un alumno desaparece en el nuevo curso escolar haciendo que la investigacion del asesinato se dificulte",
         "2019-09-06",
-        "https://static.wikia.nocookie.net/elite/images/3/39/Elite_S2.jpg/revision/latest?cb=20191017055945&path-prefix=es",
+        "/static/img/series/elite.jpg",
         "https://www.youtube.com/watch?v=c4V3N-2ARUw",
         8
     ),
@@ -296,7 +296,7 @@ INSERT INTO Serie VALUES
         "Empreinte Digitale",
         "Una novelista se da cuenta de que sus historias de terror se hacen realidad y decide volver a su ciudad natal para enfrentarse a su pasado",
         "2019-10-13",
-        "https://pics.filmaffinity.com/Marianne_Miniserie_de_TV-803387895-large.jpg",
+        "/static/img/series/marianne.jpg",
         "https://www.youtube.com/watch?v=wMofLWJCV0U",
         8
     ),
@@ -312,7 +312,7 @@ INSERT INTO Serie VALUES
         "Zeppotron",
         "Historias en una sociedad futura donde el ser humano convive con tecnologia avanzada que condiciona sus pensamientos y comportamientos",
         "2011-12-04",
-        "https://es.web.img2.acsta.net/pictures/18/05/22/15/58/5162529.jpg",
+        "/static/img/series/black_mirror.jpg",
         "https://www.youtube.com/watch?v=zLZHdK6l55I",
         3
     ),
@@ -327,7 +327,7 @@ INSERT INTO Serie VALUES
         "Zeppotron",
         "Historias en una sociedad futura donde el ser humano convive con tecnologia avanzada que condiciona sus pensamientos y comportamientos",
         "2013-02-11",
-        "https://es.web.img2.acsta.net/pictures/18/05/22/15/58/5329716.jpg",
+        "/static/img/series/black_mirror.jpg",
         "https://www.youtube.com/watch?v=iHgEJeINo-Y",
         3
     ),
@@ -342,7 +342,7 @@ INSERT INTO Serie VALUES
         "House of Tomorrow",
         "Historias en una sociedad futura donde el ser humano convive con tecnologia avanzada que condiciona sus pensamientos y comportamientos",
         "2016-10-21",
-        "https://www.formulatv.com/images/series/posters/600/602/1_m3.jpg",
+        "/static/img/series/black_mirror.jpg",
         "https://www.youtube.com/watch?v=F0bf_ZjrYaI",
         6
     ),
@@ -357,7 +357,7 @@ INSERT INTO Serie VALUES
         "House of Tomorrow",
         "Historias en una sociedad futura donde el ser humano convive con tecnologia avanzada que condiciona sus pensamientos y comportamientos",
         "2017-12-29",
-        "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2017/12/28/5fa3e3e37e7f2.jpeg",
+        "/static/img/series/black_mirror.jpg",
         "https://www.youtube.com/watch?v=kGZodefZty8",
         6
     ),
@@ -372,7 +372,7 @@ INSERT INTO Serie VALUES
         "House of Tomorrow",
         "Historias en una sociedad futura donde el ser humano convive con tecnologia avanzada que condiciona sus pensamientos y comportamientos",
         "2019-06-05",
-        "https://es.web.img3.acsta.net/pictures/19/06/03/09/48/4443572.jpg",
+        "/static/img/series/black_mirror.jpg",
         "https://www.youtube.com/watch?v=oviaUj5eUzU",
         3
     ),
@@ -388,7 +388,7 @@ INSERT INTO Serie VALUES
         "Fairview Entertainment",
         "El Mandaloriano se ubica tras la caída del Imperio y antes de que la Primera Orden surja. En la serie seguimos las aventuras de un pistolero solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República",
         "2019-11-12",
-        "https://es.web.img2.acsta.net/pictures/19/10/29/09/01/2094959.jpg",
+        "/static/img/series/mandalorian.jpg",
         "https://www.youtube.com/watch?v=a98FDZ8viPs",
         8
     ),
@@ -403,7 +403,7 @@ INSERT INTO Serie VALUES
         "Fairview Entertainment",
         "El Mandaloriano y el Niño continúan su viaje, enfrentándose a enemigos y reuniendo aliados en su camino a través de una peligrosa galaxia en la tumultuosa era después del colapso del Imperio Galáctico",
         "2020-10-30",
-        "https://es.web.img3.acsta.net/pictures/20/09/15/17/06/1295785.jpg",
+        "/static/img/series/mandalorian.jpg",
         "https://www.youtube.com/watch?v=8rrVLdSSOY8",
         8
     ),
@@ -419,7 +419,7 @@ INSERT INTO Serie VALUES
         "Perro Azul",
         "Tras 18 años de cárcel, Álex hace pagar a los miembros de la familia Lazcano, quienes lo incriminaron en el asesinato de su hermana Sara para preservar su buen nombre",
         "2021-03-24",
-        "https://es.web.img3.acsta.net/pictures/21/03/03/05/30/3663120.jpg",
+        "/static/img/series/quien_mato_sara.jpg",
         "https://www.youtube.com/watch?v=tyU4zz_ds-s",
         10
     ),
@@ -434,7 +434,7 @@ INSERT INTO Serie VALUES
         "Perro Azul",
         "Para concretar su venganza, Álex tendrá que adentrarse en la oscura psique de su hermana y aceptar el hecho de que nunca conoció a la verdadera Sara.",
         "2021-05-19",
-        "https://i.blogs.es/782349/quien-mato-sara-temporada-2/1366_2000.jpeg",
+        "/static/img/series/quien_mato_sara.jpg",
         "https://www.youtube.com/watch?v=0bQ55akiXB0",
         8
     ),
@@ -449,7 +449,7 @@ INSERT INTO Serie VALUES
         "Perro Azul",
         "Alex descubre que tiene una sobrina que es idéntica a su hermana Sara, el papá de Nicandro es el que está detrás de todo lo que ha pasado con Sara",
         "2022-05-18",
-        "https://pbs.twimg.com/media/FKMlCuAUYAAEsGI.jpg",
+        "/static/img/series/quien_mato_sara.jpg",
         "https://www.youtube.com/watch?v=PjM7eOpHjUI",
         7
     ),
@@ -465,7 +465,7 @@ INSERT INTO Serie VALUES
         "Shondaland",
         "Es una historia de amor que se ubica en el Periodo Regencia de Reino Unido, un relato que parte desde un punto de vista feminista. Sigue a personajes de la alta sociedad británica, explorando sus vidas, conflictos, problemas y toda clase de dilemas. Este mundo se muestra abierto desde la posición de la familia Bridgerton",
         "2020-12-25",
-        "https://es.web.img3.acsta.net/pictures/20/11/04/12/03/4756219.jpg?coixp=50&coiyp=32",
+        "/static/img/series/bridgerton.jpg",
         "https://www.youtube.com/watch?v=GErgslxZeME",
         8
     ),
@@ -480,7 +480,7 @@ INSERT INTO Serie VALUES
         "Shondaland",
         "Es una historia de amor que se ubica en el Periodo Regencia de Reino Unido, un relato que parte desde un punto de vista feminista. Sigue a personajes de la alta sociedad británica, explorando sus vidas, conflictos, problemas y toda clase de dilemas. Este mundo se muestra abierto desde la posición de la familia Bridgerton",
         "2022-03-25",
-        "https://es.web.img3.acsta.net/pictures/22/03/10/12/40/4798734.jpg",
+        "/static/img/series/bridgerton.jpg",
         "https://www.youtube.com/watch?v=37tbdL5_C_s",
         8
     ),
@@ -496,7 +496,7 @@ INSERT INTO Serie VALUES
         "Vox",
         "Esta reveladora serie de Vox indaga en una gran variedad de temas, como el nacimiento de la criptomoneda, por qué fracasan las dietas y el alocado mundo del pop coreano",
         "2018-05-23",
-        "https://es.web.img2.acsta.net/pictures/20/06/21/23/10/1331780.jpg",
+        "/static/img/series/pocas_palabras.jpg",
         "https://www.youtube.com/watch?v=WxYeus3Mlr0",
         20
     ),
@@ -511,7 +511,7 @@ INSERT INTO Serie VALUES
         "Vox",
         "Esta reveladora serie de Vox indaga en una gran variedad de temas, como el nacimiento de la criptomoneda, por qué fracasan las dietas y el alocado mundo del pop coreano",
         "2019-09-26",
-        "https://image.tmdb.org/t/p/w342/xtplg03TPvOqWhDvORxaz6WopRm.jpg",
+        "/static/img/series/pocas_palabras.jpg",
         "https://www.youtube.com/watch?v=WxYeus3Mlr0",
         10
     ),
@@ -526,7 +526,7 @@ INSERT INTO Serie VALUES
         "Vox",
         "Esta reveladora serie de Vox indaga en una gran variedad de temas, como el nacimiento de la criptomoneda, por qué fracasan las dietas y el alocado mundo del pop coreano",
         "2021-08-13",
-        "https://es.web.img2.acsta.net/pictures/20/06/21/23/10/1331780.jpg",
+        "/static/img/series/pocas_palabras.jpg",
         "https://www.youtube.com/watch?v=WxYeus3Mlr0",
         14
     ),
@@ -542,7 +542,7 @@ INSERT INTO Serie VALUES
         "Noc Noc Cinema",
         "Cuenta la historia de dos amantes que fueron separados trágicamente y que deben encontrarse en otra vida para romper el hechizo que cayó sobre el excéntrico pueblo que habitan. Ahora, en el presente, la llegada de dos turistas pondrá en riesgo la única posibilidad que tienen de romper el hechizo",
         "2022-03-11",
-        "https://pics.filmaffinity.com/rase_una_vez_pero_ya_no_Serie_de_TV-832731027-large.jpg",
+        "/static/img/series/erase_una_vez.jpg",
         "https://www.youtube.com/watch?v=4PA_jcv2784",
         6
     ),
@@ -558,7 +558,7 @@ INSERT INTO Serie VALUES
         "A&E Studios",
         "La ficción narra lo sucedido en el campo de batalla del rebelde oficial del Ejército Félix Sparks y su equipo compuesto por: vaqueros, nativos americanos y mexicoamericanos. Una historia real de lo que fue la marcha más sangrientas para conseguir la victoria en la Segunda Guerra Mundial",
         "2020-11-11",
-        "https://es.web.img2.acsta.net/pictures/20/10/13/08/12/1993324.jpg",
+        "/static/img/series/libertator.jpg",
         "https://www.youtube.com/watch?v=w2ze9eZ1WFs",
         4
     ),
@@ -573,7 +573,7 @@ INSERT INTO Serie VALUES
         "Netflix",
         "El conflicto de lealtades de un oficial romano, dividido entre el imperio en el que creció y la gente de su propia tribu, desemboca en un épico enfrentamiento histórico.",
         "2020-10-23",
-        "https://pics.filmaffinity.com/B_rbaros_Serie_de_TV-918771969-mmed.jpg",
+        "/static/img/series/barbaros.jpg",
         "https://www.youtube.com/watch?v=6UyACoBF2uk",
         6
     ),
@@ -589,7 +589,7 @@ INSERT INTO Serie VALUES
         "Clubhouse Pictures",
         "Dollface se centra en Jules, una joven cuyo novio la deja, rompiendo una relación de muchos años. Afectada por lo sucedido, la protagonista tiene que recordar cómo vivir si el que ahora es su ex pareja, y volver a entrar en el mundo de las mujeres, recuperando relaciones con amigas que había dejado atrás",
         "2019-11-15",
-        "https://es.web.img2.acsta.net/pictures/19/10/21/09/08/1111110.jpg",
+        "/static/img/series/dollface.jpeg",
         "https://www.youtube.com/watch?v=6_zl8nhQ2bY",
         10
     ),
@@ -604,7 +604,7 @@ INSERT INTO Serie VALUES
         "Clubhouse Pictures",
         "Dollface se centra en Jules, una joven cuyo novio la deja, rompiendo una relación de muchos años. Afectada por lo sucedido, la protagonista tiene que recordar cómo vivir si el que ahora es su ex pareja, y volver a entrar en el mundo de las mujeres, recuperando relaciones con amigas que había dejado atrás",
         "2022-02-11",
-        "https://images.justwatch.com/poster/263780202/s592/temporada-2",
+        "/static/img/series/dollface.jpeg",
         "https://www.youtube.com/watch?v=hI0ncmUPtbs",
         10
     ),
@@ -620,7 +620,7 @@ INSERT INTO Serie VALUES
         "ABC Studios",
         "Ambientada en Seattle, la serie se centra en las vidas de las mujeres y hombres en el departamento de bomberos de Seattle Fire estación 19. La serie es producida por Shondaland y ABC Signature, con McKee sirviendo como showrunner",
         "2018-03-22",
-        "https://mx.web.img3.acsta.net/pictures/19/05/09/07/39/4240676.jpg",
+        "/static/img/series/station19.jpg",
         "https://www.youtube.com/watch?v=YYW64RgFdxk",
         10
     ),
@@ -635,7 +635,7 @@ INSERT INTO Serie VALUES
         "ABC Studios",
         "La segunda temporada encuentra al heroico cuerpo de bomberos de la Estación 19 luchando con las consecuencias del incendio mortal. La vida de su antiguo capitán, Pruitt, pende de un hilo después de importantes complicaciones de salud. Ya no es un novato, Ben busca su lugar en el equipo",
         "2018-10-04",
-        "https://mx.web.img2.acsta.net/pictures/19/05/09/07/41/3281788.jpg",
+        "/static/img/series/station19.jpg",
         "https://www.youtube.com/watch?v=0StAYVc9Gnk",
         17
     ),
@@ -650,7 +650,7 @@ INSERT INTO Serie VALUES
         "ABC Signature",
         "La tercera temporada se centra en el estilo y ciclo de vida impredecibles del equipo de socorristas, que afectarán significativamente las relaciones dentro y fuera de la estación de bomberos",
         "2020-01-23",
-        "https://es.web.img3.acsta.net/pictures/20/01/14/20/47/2026722.jpg",
+        "/static/img/series/station19.jpg",
         "https://www.youtube.com/watch?v=jazcEA_OaWo",
         16
     ),
@@ -665,7 +665,7 @@ INSERT INTO Serie VALUES
         "ABC Signature",
         "En el final de la tercera temporada Ben, Jackson y Emmett se ponen en una posición precaria y peligrosa que podría tener una posible víctima. Mientras tanto, Andy continúa sospechandp de la muerte de su madre, así que decide acudir a su tía para obtener respuestas",
         "2020-11-12",
-        "https://es.web.img3.acsta.net/pictures/20/09/18/09/13/5093273.jpg",
+        "/static/img/series/station19.jpg",
         "https://www.youtube.com/watch?v=Dw7w8QUEaRU",
         16
     );
