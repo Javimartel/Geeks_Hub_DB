@@ -66,91 +66,91 @@ VALUES
         "Perfil1",
         "aitorinfo@hotmail.es",
         "Aitorino",
-        "Imagen2",
+        "/static/img/avatar/avatar2.png",
         "FV01"
     ),
     (
         "Perfil2",
         "aitorinfo@hotmail.es",
         "Juani",
-        "Imagen1",
+        "/static/img/avatar/avatar1.png",
         "FV02"
     ),
     (
         "Perfil3",
         "aitorinfo@hotmail.es",
         "Paco",
-        "Imagen2",
+        "/static/img/avatar/avatar2.png",
         "FV03"
     ),
     (
         "Perfil4",
         "saracabrera@gmail.com",
         "SaraCS",
-        "Imagen3",
+        "/static/img/avatar/avatar3.png",
         "FV04"
     ),
     (
         "Perfil5",
         "javimartel@hotmail.com",
         "Javi",
-        "Imagen1",
+        "/static/img/avatar/avatar1.png",
         "FV05"
     ),
     (
         "Perfil6",
         "javimartel@hotmail.com",
         "Javi2",
-        "Imagen2",
+        "/static/img/avatar/avatar2.png",
         "FV06"
     ),
     (
         "Perfil7",
         "lauritajua@gmail.com",
         "Lau",
-        "Imagen1",
+        "/static/img/avatar/avatar1.png",
         "FV07"
     ),
     (
         "Perfil8",
         "lauritajua@gmail.com",
         "Luisa",
-        "Imagen3",
+        "/static/img/avatar/avatar3.png",
         "FV08"
     ),
     (
         "Perfil9",
         "juanma87@gmail.com",
         "Juanma",
-        "Imagen2",
+        "/static/img/avatar/avatar2.png",
         "FV09"
     ),
     (
         "Perfil10",
         "raulpokefan@hotmail.es",
         "Raul",
-        "Imagen1",
+        "/static/img/avatar/avatar1.png",
         "FV10"
     ),
     (
         "Perfil11",
         "raulpokefan@hotmail.es",
         "Ivan",
-        "Imagen3",
+        "/static/img/avatar/avatar3.png",
         "FV11"
     ),
     (
         "Perfil12",
         "raulpokefan@hotmail.es",
         "Paco",
-        "Imagen1",
+        "/static/img/avatar/avatar1.png",
         "FV12"
     ),
     (
         "Perfil13",
         "raulpokefan@hotmail.es",
         "Mario",
-        "Imagen2",
+        "/static/img/avatar/avatar2.png",
         "FV13"
     );
 
